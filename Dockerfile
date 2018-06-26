@@ -4,12 +4,15 @@ ENV TZ=Asia/Tokyo
 RUN apt-get -qq update && \
     apt-get -qq install \
         bc \
+        bison \
         cpio \
         curl \
         elfutils \
+        flex \
         libelf-dev \
         librpmbuild3 \
         rpm \
+        rsync \
         sudo \
         wget
 
