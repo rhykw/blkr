@@ -9,6 +9,7 @@ RUN apt-get -qq update && \
         curl \
         elfutils \
         flex \
+        kmod \
         libelf-dev \
         librpmbuild3 \
         rpm \
